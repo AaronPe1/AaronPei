@@ -1,0 +1,2 @@
+// Keep the main photo viewer light: load the three-dimensional renderer on demand.
+(()=>{const button=document.querySelector('#exploreMode');button.onclick=async()=>{button.disabled=true;const previous=button.innerHTML;button.textContent='正在进入…';try{const module=await import('./explore.js');module.start();}catch(error){console.error('Exploration could not load:',error);button.textContent='重试进入';return;}finally{button.disabled=false;}button.innerHTML=previous;};})();

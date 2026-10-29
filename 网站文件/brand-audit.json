@@ -1,0 +1,28 @@
+{
+  "brand": "AP1",
+  "author": "Aaron Pei",
+  "full_signature": "AaronPe1",
+  "assets": [
+    {
+      "asset": "ap1-full-white.svg",
+      "source": "01-Master-SVG/AaronPe1-full-white.svg",
+      "sha256": "658478ecd8c92ff343a4d2f6cd556f7ed11b9cbb835cac119172f6d577c163f3",
+      "unchanged": true
+    },
+    {
+      "asset": "ap1-mark-white.svg",
+      "source": "01-Master-SVG/AaronPe1-compact-white.svg",
+      "sha256": "c7952d4dffabaac7a77122d4bd8afb29461d37b25aa7323c3230ec0212d75604",
+      "unchanged": true
+    },
+    {
+      "asset": "favicon.svg",
+      "source": "05-Web-Icons/favicon.svg",
+      "sha256": "a29eed7d2495dde386ccd8cdca188fceea4f568cd2e559b6573e5e0e898c4497",
+      "unchanged": true
+    }
+  ],
+  "min_full_width_px": 160,
+  "min_compact_width_px": 64,
+  "clear_space_min_H": 0.2
+}
